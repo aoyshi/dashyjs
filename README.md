@@ -125,7 +125,3 @@ TOKEN=ghtry892347nfdsjkbdfhbdfjg
 ```
 
 - Start the bot! >> `npm start`
-
-## :purple_heart: First Discord Bot
-
-The instructions here are pretty good! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
