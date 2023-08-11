@@ -106,4 +106,26 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 ## :purple_heart: First Discord Bot
 
+- The instructions here are pretty good! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
+- Pull in code from the remote Git repo, and run the bot on your PC:
+
+```
+git clone git@github.com:aoyshi/dashyjs.git
+cd dashyjs
+git fetch origin squid/sample-discord-bot
+git checkout squid/sample-discord-bot
+cd src
+npm install
+```
+
+- Create a `.env` file in the `/src` folder, and place the Discord bot token in it like this:
+
+```
+TOKEN=ghtry892347nfdsjkbdfhbdfjg
+```
+
+- Start the bot! >> `npm start`
+
+## :purple_heart: First Discord Bot
+
 The instructions here are pretty good! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
