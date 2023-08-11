@@ -1,6 +1,6 @@
 # dashyjs :purple_heart:
 
-JavaScript/VSCode/Node Setup for Dashy :purple_heart:
+JavaScript/VSCode/Node Setup for Dashy :purple_heart: :purple_heart: :purple_heart:
 
 ## Visual Studio Code
 
@@ -8,15 +8,15 @@ VS Code is your code editor.
 
 ### Extensions (Install + Enable)
 
-- [ ] Smart Semicolon
-- [ ] ESLint
-- [ ] Prettier
-- [ ] Quokka
-- [ ] JavaScript (ES6) Code Snippets
+- [ ] **Smart** Semicolon (autoinserts semicolons)
+- [ ] **ESLint** (autocorrects common code formatting mistakes)
+- [ ] **Prettier** (auto-formats code to make it look _prettier_)
+- [ ] **Quokka** (runs JS code inline so you can see results real-time)
+- [ ] **JavaScript (ES6) Code Snippets** (shortcuts to produce commonly used code segments)
 
-### Config
+### Configurations
 
-- [ ] <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> > Type `settings.json` > _Preferences: Open User Settings (JSON)_
+- [ ] <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> > Type `settings.json` > **Preferences: Open User Settings (JSON)**
 - [ ] Copy-pasta the following code into the above `settings.json` file
 
 ```
@@ -96,3 +96,14 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 - [ ] Close terminal, reopen a new one and run this to verify: `command -v nvm`
 - [ ] Install Node: `nvm install node` and verify `node -v`
 - [ ] Install NPM: `nvm install-latest-npm` and verify `npm -v`
+
+## Running The Code
+
+- [ ] Pull in remote Git code into your PC by running this in your GitBash VSCode Terminal: `git clone git@github.com:aoyshi/dashyjs.git`
+- [ ] Install all node modules required by this code: `npm install`
+- [ ] Go into the sourcecode directory: `cd dashyjs/src`
+- [ ] Run the main code file and see the output in the terminal: `node main.js`
+
+## First Discord Bot
+
+The instructions here are pretty good! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
