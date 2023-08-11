@@ -83,19 +83,17 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Run the following in Git Bash VS Code Terminal
 
-- [ ] Install NVM:
-
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
-
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-```
-
-- [ ] Close terminal, reopen a new one and run this to verify: `command -v nvm`
+- [ ] Install NVM in Windows: Go to https://github.com/coreybutler/nvm-windows/releases/tag/1.1.11 and install `nvm-setup.exe`
+- [ ] Modify VS Code to run as administrator (or else it won't have access to NVM): C:\Program Files\Microsoft VS Code\Code.exe > RightClick > Properties > Compatibility Tab > Run as administrator (checked)
+- [ ] Reopen VS Code and run this in the integrated Git Bash terminal to verify: `nvm -v`
 - [ ] Install Node: `nvm install node` and verify `node -v`
 - [ ] Install NPM: `nvm install-latest-npm` and verify `npm -v`
+- [ ] Worst case scenario, if none of these work, run the following three lines in Git Bash:
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
 
 ## :purple_heart: Running The Code
 
@@ -106,4 +104,4 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 ## :purple_heart: First Discord Bot
 
-The instructions here are pretty good! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
+The intro instructions here are pretty good (but the actual code needs tweaking to make it work with the latest Discord.js API)! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
