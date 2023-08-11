@@ -1,8 +1,8 @@
-# dashyjs :purple_heart:
+# :purple_heart: dashyjs :purple_heart:
 
 JavaScript/VSCode/Node Setup for Dashy :purple_heart: :purple_heart: :purple_heart:
 
-## Visual Studio Code
+## :purple_heart: Visual Studio Code
 
 VS Code is your code editor.
 
@@ -56,7 +56,7 @@ VS Code is your code editor.
 }
 ```
 
-## Git Integration
+## :purple_heart: Git Integration
 
 Git is your version control system - it saves all your code files as you update them, so that you never lose progress/can revert to past working versions of code in case you made a bad edit.
 
@@ -74,7 +74,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 - [ ] Create your own branch: `git checkout -b "dashy/first-commit"`
 - [ ] Add + push your changes to the remote repo: `git commit -am "my first commit"; git push`
 
-## Node and NPM Installation
+## :purple_heart: Node and NPM Installation
 
 - JavaScript is a programming language, and a code engine is required to run it. NodeJS is that engine that runs JS code on your PC.
 - "node modules" are helpful packages of code that other developers have created, which you can reuse for your projects.
@@ -97,13 +97,13 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 - [ ] Install Node: `nvm install node` and verify `node -v`
 - [ ] Install NPM: `nvm install-latest-npm` and verify `npm -v`
 
-## Running The Code
+## :purple_heart: Running The Code
 
 - [ ] Pull in remote Git code into your PC by running this in your GitBash VSCode Terminal: `git clone git@github.com:aoyshi/dashyjs.git`
 - [ ] Install all node modules required by this code: `npm install`
 - [ ] Go into the sourcecode directory: `cd dashyjs/src`
 - [ ] Run the main code file and see the output in the terminal: `node main.js`
 
-## First Discord Bot
+## :purple_heart: First Discord Bot
 
 The instructions here are pretty good! >> https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
