@@ -1,5 +1,4 @@
 const axios = require('axios');
-const discord = require('discord.js');
 
 /** Function to fetch a random insult from evilinsult.com */
 const getRandomInsult = async () => {
